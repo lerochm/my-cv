@@ -1,0 +1,42 @@
+*{
+    box-sizing:border-box;
+    
+}
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:center;
+#bold{
+    font-weight: 800;
+    text-transform:uppercase;
+}
+
+.personal-info{
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+address{
+    font-style: normal;
+    margin-top: 10px;
+    display:flex;
+    flex-direction: row;
+}
+h3{
+    font-size:1.8rem;
+}
+p {
+    font-weight: 700;
+}
+ul{
+    font-weight: 700;
+}
+#date{
+    display:flex;
+    justify-content: flex-end;
+}
